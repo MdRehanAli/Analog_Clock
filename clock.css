@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    border: 0;
+    background-color: rgb(180, 180, 180);
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img{
+    width: 120px;
+    position: relative;
+    left: 125px;
+    top: 50px;
+    transform: translate(-50%);
+
+    
+}
+
+.clock{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 10px solid rgb(236, 192, 109);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    color: floralwhite;
+    background-color: black;
+}
+
+.numbers div{
+    position: absolute;
+    color: aquamarine;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgba(217, 255, 0, 0.808);
+}
+
+
+.twelve{
+    position: absolute;
+    transform: translateX(105px);
+
+}
+
+.nine{
+    position: absolute;
+    transform: translateX(117px);
+    top: 218px;
+
+}
+
+.six{
+    position: absolute;
+    transform: translateX(227px);
+    top: 114px;
+}
+
+.three{
+    position: absolute;
+    transform: translateX(5px);
+    top: 114px;
+
+}
+
+
+.hands div{
+    position: absolute;
+    transform: translateX(118px);
+    top: 121px;
+    border: 9px solid rgb(173, 164, 125);
+    box-shadow: 1px 1px 3px rgba(243, 255, 75, 0.356);
+    border-radius: 50%;
+
+}
